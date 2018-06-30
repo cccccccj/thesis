@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="stf-8">
+    <meta name="author" content="Jia Chen">
+    <title>CJ-Thesis</title>
+    <link rel="stylesheet" href="css/style_60.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.js"
+    integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+    crossorigin="anonymous"></script>
+    <script src="js/menu.js" defer></script>
+    <script src="js/60s.js" defer></script>
+  </head>
+  <body>
+    <div id="container-60" class="container">
+      <img id="background-60" src="img/60_background.jpg">
+      <div id="middle-wall-60">
+        <img class="record-middle-wall-60 song-60" src="img/60_record3.png" onmousedown="clickPlay(1)">
+        <!-- <div id="next-scene-60"></div> -->
+        <img class="record-middle-wall-60 song-60" style="width:35%" src="img/60_record5.png" onmousedown="clickPlay(4)">
+        <img class="record-middle-wall-60 song-60" src="img/60_record4.png" onmousedown="clickPlay(2)">
+      </div>
+      <div id="left-side-wall-60"><img class="record-side-wall-60 song-60" src="img/60_record1.png" onmousedown="clickPlay(0)"></div>
+      <div class="menu">
+        <img class="ham-menu" id="menu-show" src="img/Hamburger_icon_i.png">
+        <img class="ham-menu unshow"id="menu-hide" src="img/Hamburger_icon.png">
+        <img class ="mute" id="cat" src="img/cat.png" onmousedown="mute()">
+        <img class ="mute unshow" id="cross" src="img/mute.png" onmousedown="unmute()">
+      </div>
+      <div id="right-side-wall-60"><img class="record-side-wall-60 song-60" src="img/60_record2.png" onmousedown="clickPlay(3)"></div>
+      <div id="floor-60"></div>
+      <div id="elvis-60"><img id="elvis-sofa-60" src="img/60_elvis_sofa.png"></div>
+
+      <div class="popup-menu-container unshow">
+        <img class="popup-menu" id="popup-60" src="img/menu60.png">
+        <div class="menu-link">
+          <ul class="menu-link-ul">
+            <li><a href="60s.html">60s</a></li>
+            <li><a href="70s.html">70s</a></li>
+            <li><a href="80s.html">80s</a></li>
+            <li><a href="90s.html">90s</a></li>
+            <li><a href="00s.html">00s</a></li>
+          </ul>
+        </div>
+      </div>
+   </div>
+  </body>
+</html>

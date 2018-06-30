@@ -1,0 +1,446 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body{
+}
+.container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+}
+li a:link{
+  color: white;
+  font-family: Impact, Charcoal,serif;
+  list-style-type: none;
+  font-size: 3.4vw;
+  text-decoration:  none;
+}
+a:visited{
+  color:white;
+}
+li a:hover{
+  text-decoration: underline;
+}
+
+.ham-menu{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width:3%;
+}
+.mute{
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  width:3%;
+}
+
+.ham-menu:hover{
+  border: 2px dotted black;
+}
+.mute:hover{
+  border: 2px dotted black;
+}
+.popup-menu{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.menu-link{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 15%;
+  right: 8%;
+  height: 70%;
+  flex-wrap: nowrap;
+  justify-content:space-between;
+}
+.menu-link-ul{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content:space-between;
+}
+
+
+/* 60s */
+#background-60{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+}
+
+#middle-wall-60{
+  position: absolute;
+  top: 0;
+  left: 20%;
+  width: 60%;
+  height: 100%;
+  /* background: url('../img/60_wallmiddle.jpg') no-repeat; */
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+  align-items:baseline;
+}
+#left-side-wall-60{
+  position: absolute;
+  top:0;
+  left:0;
+  width:20%;
+  height: 100%;
+  /* background: url('../img/60_wallside.jpg') no-repeat; */
+  background-size: cover;
+  text-align: center;
+}
+#right-side-wall-60{
+  position: absolute;
+  top:0;
+  right:0;
+  width:20%;
+  height: 100%;
+  /* background: url('../img/60_wallside.jpg') no-repeat; */
+  background-size: cover;
+  text-align: center;
+}
+#floor-60{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width:100%;
+  height:33%;
+  /* background: url('../img/60_floor.png') no-repeat; */
+  background-size:cover;
+}
+.record-middle-wall-60{
+  width:20%;
+  height: 22%;
+  margin-top: 15%;
+}
+.record-side-wall-60{
+  width:70%;
+  height: 32%;
+  margin-top: 48%;
+}
+#next-scene-60{
+  width:34%;
+  height: 22%;
+  background-color: black;
+}
+#elvis-60{
+  position: absolute;
+  top:30%;
+  left:53%;
+  width:20%;
+}
+#elvis-sofa-60{
+  width:100%;
+}
+.song-60:hover{
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  50% { transform: translate(1px, 1px) rotate(-5deg); }
+  100% { transform: translate(1px, 1px) rotate(5deg); }
+}
+
+
+/* 70s */
+#middle-wall-70{
+  position: absolute;
+  top: 0;
+  left: 17%;
+  width: 66%;
+  height: 100%;
+  background: url('../img/70_wallmiddle.png') no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+#left-side-wall-70{
+  position: absolute;
+  top:0;
+  left:0;
+  width:17%;
+  height: 100%;
+  background-color: #9C2A8E;
+  text-align: center;
+}
+#right-side-wall-70{
+  position: absolute;
+  top:0;
+  right:0;
+  width:17%;
+  height: 100%;
+  background-color: #0C4099;
+}
+#floor-70{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width:100%;
+  height:35%;
+}
+#floor-img-70{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+}
+.aero-70{
+  position: absolute;
+  width: 66%;
+  height:auto;
+  top:7%;
+  left: 17%;
+}
+.unshow{
+  display: none;
+}
+#guitar1-70{
+  position: absolute;
+  top:0;
+  left: 4%;
+  width: 20%;
+  height: 98%;
+}
+#guitar1-light-70{
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 25%;
+  height: 100%;
+  transform: rotate(4deg);
+}
+.guitar1-70{
+  position: absolute;
+  bottom: 2%;
+  left: 4%;
+  width: 18%;
+}
+#drum-light-70{
+  position: absolute;
+  top: 0;
+  left: 9%;
+  width: 45%;
+  height: 90%;
+  transform: rotate(-6deg);
+}
+.drum-70{
+  position: absolute;
+  bottom: 13%;
+  left: 9%;
+  width: 43%;
+}
+#guitarwife-light-70{
+  position: absolute;
+  top: 0;
+  right: 6%;
+  width: 20%;
+  height: 87%;
+  transform: rotate(4deg);
+}
+.guitarwife-70{
+  position: absolute;
+  right: 9%;
+  bottom: 19%;
+  width: 15%;
+}
+#micro-light-70{
+  position: absolute;
+  top: 0;
+  right: 21%;
+  width: 16%;
+  height: 92%;
+  transform: rotate(-4deg);
+}
+.micro-70{
+  position: absolute;
+  right: 22%;
+  bottom: 15%;
+  width: 12%;
+}
+#bass-light-70{
+  position: absolute;
+  top: 0;
+  right: 2%;
+  width: 20%;
+  height: 110%;
+  transform: rotate(-5deg);
+}
+.bass-70{
+  position: absolute;
+  right: 0%;
+  bottom: 2%;
+  width: 16%;
+}
+.duolaimi{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+/* 80s */
+#background-80{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+}
+.menu-80{
+  filter: brightness(300%);
+}
+.star{
+  position: absolute;
+  width:23px;
+}
+#star0{
+  left: 26%;
+  top:40%;
+}
+#star1{
+  left:43%;
+  top:30%;
+}
+#star2{
+  left: 66%;
+  top:20%;
+}
+#star3{
+  left: 84%;
+  top:34%;
+}
+#star4{
+  left: 91%;
+  top:18%;
+}
+.star:hover{
+  animation: scale 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scale {
+  0% { transform: scale(1,1)}
+  50% { transform: scale(2,2)}
+  100% { transform: scale(1,1)}
+}
+
+
+/* 90s */
+#background-90{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+}
+.camL{
+  position: absolute;
+}
+.camL:hover{
+  transform: rotate(-5deg);
+}
+.camR{
+  position: absolute;
+}
+.camR:hover{
+  transform: rotate(5deg);
+}
+#cam0{
+  bottom: -5%;
+  left:-7%;
+  width:28%;
+}
+#cam1{
+  bottom: -18%;
+  left:10%;
+  width:30%;
+}
+#cam2{
+  bottom: -17%;
+  right:-7%;
+  width:28%;
+}
+#cam3{
+  bottom: -10%;
+  right:5%;
+  width:32%;
+}
+#cam4{
+  bottom: -18%;
+  right:14%;
+  width:30%;
+}
+
+/* 00s */
+#background-00{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  filter: brightness(0.7);
+}
+.stiker-00{
+  filter: brightness(0.7);
+}
+.stiker-00:hover{
+  filter: brightness(1);
+}
+#stiker1-00{
+  position: absolute;
+  top: 15%;
+  width: 10%;
+  left: 18%;
+}
+#stiker2-00{
+  position: absolute;
+  top: 59%;
+  width: 11%;
+  left: 31%;
+  transform: rotate(-4deg);
+}
+#stiker3-00{
+  position: absolute;
+  top: 13%;
+  width: 11%;
+  left: 58%;
+  transform: rotate(4deg);
+}
+#stiker4-00{
+  position: absolute;
+  top: 62%;
+  width: 11%;
+  left: 72%;
+}
+#stiker5-00{
+  position: absolute;
+  top: 25%;
+  width: 11%;
+  left: 86%;
+}
+#britney-00{
+  position: absolute;
+  bottom: 0;
+  width: 26%;
+  left: 37%;
+}
