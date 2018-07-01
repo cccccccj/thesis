@@ -12,6 +12,8 @@ var middlePicR60 = new Image();
 middlePicR60.src = 'img/60_record4.png'
 var elvis60= new Image();
 elvis60.src='img/60_elvis_sofa.png'
+var background70 = new Image();
+background70.src = 'img/70_markup.png'
 
 var setup=0;
 window.onload =function(){
@@ -42,7 +44,6 @@ window.onload =function(){
       c.translate(-scaleChange/2*width, -scaleChange/4*height);
       c.scale(1+scaleChange,1+scaleChange);
       c.drawImage(background60,x,y,width,height);
-      // c.drawImage(background60,x,y,width,height);
       c.drawImage(leftPic60,x+width/40,y+height/5,width/6,height/3);
       c.drawImage(rightPic60,x+width-width/40-width/6,y+height/5,width/6,height/3);
       c.drawImage(middlePicL60,x+width/4,y+height/5,width/8.5,height/4.7);
@@ -50,6 +51,10 @@ window.onload =function(){
       c.fillStyle = 'black';
       c.fillRect(x+width/2-width/9.4, y+height/5, width/4.7, height/4.7);
       // draw70()
+      draw70(x+width/2-width/9.4,y+height/5,width/4.7, height/4.7)
       c.drawImage(elvis60,x+width/1.8,y+height/3,width/5.5,height/1.8);
   };
+}
+function draw70(x,y,width,height){
+    c.drawImage(background70,x,y,width,height);
 }

@@ -19,7 +19,7 @@
   position: absolute;
   top:0;
   left:0;
-  width:15vw;
+  width:20vw;
   height:100vh;
   margin-left: -5vw;
   margin-top: -5vw;
@@ -28,7 +28,7 @@
   position: absolute;
   top:0;
   right:0;
-  width:15vw;
+  width:20vw;
   height:100vh;
   margin-right: -5vw;
   margin-top: -5vw;
@@ -43,8 +43,22 @@
 #floor-img-60{
   width: 100%;
 }
+#scene{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 #floor-60{
-  width:120vw;
-  margin-left: -10vw;
-  margin-top:-100vw;
+  position: absolute;
+  margin-top: 40%;
+  width: 120%;
+  margin-left: -10%;
+}
+#elvis-60{
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 20%;
+  transform: scale(0.1);
 }
